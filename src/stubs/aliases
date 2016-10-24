@@ -7,6 +7,7 @@ alias art=artisan
 
 alias phpspec='vendor/bin/phpspec'
 alias phpunit='vendor/bin/phpunit'
+alias codecept='vendor/bin/codecept'
 alias serve=serve-laravel
 
 function serve-laravel() {
