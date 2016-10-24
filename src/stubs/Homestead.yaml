@@ -14,11 +14,17 @@ folders:
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Laravel/public
+    - map: db.dev
+      to: /usr/share/adminer
+    - map: oregon.dev
+      to: /home/vagrant/Code/oregon/public
+    - map: bedrock.dev
+      to: /home/vagrant/Code/bedrock/public
 
 databases:
-    - homestead
+    - oregon
+    - bedrock
+    - codeception
 
 # blackfire:
 #     - id: foo
