@@ -17,6 +17,7 @@ if [ ! -f /usr/local/homestead_extras_installed ]; then
 	# Install Adminer (site defined in Homestead.yaml default)
 	echo "Installing Adminer..."
 	sudo mkdir /usr/share/adminer
+	wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/index.php > /dev/null 2>&1
 	
 	# Remeber this the next time we try to run this
 	echo "Headmaster VM extras have been installed."
