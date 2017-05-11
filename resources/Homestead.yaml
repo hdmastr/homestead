@@ -18,11 +18,14 @@ sites:
       to: /usr/share/adminer
     - map: oregon.dev
       to: /home/vagrant/Code/oregon/public
+    - map: utah.dev
+      to: /home/vagrant/Code/utah/public
     - map: bedrock.dev
       to: /home/vagrant/Code/bedrock/public
 
 databases:
     - oregon
+    - utah
     - bedrock
     - codeception
 
